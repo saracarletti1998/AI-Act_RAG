@@ -71,4 +71,4 @@ L'analisi sperimentale, condotta su un dataset di domande giuridiche e "Golden A
 │
 ├── requirements.txt        # Dipendenze Python necessarie
 
-└── .env.example            # Template per le API Key
+
