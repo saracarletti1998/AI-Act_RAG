@@ -38,7 +38,7 @@ L'analisi sperimentale, condotta su un dataset di domande giuridiche e "Golden A
 | **DeepSeek 7B** | Open | 0.912 | 0.903 | 0.769 | 0.923 | Sorprendente performance per un modello open-source 7B, che eguaglia GPT-4o nella rilevanza delle risposte. |
 | **Claude Sonnet** | Closed | 0.835 | 0.900 | 0.701 | 0.947 | Estremamente cauto e fedele (*Faithfulness* alta), ma tende a sintetizzare eccessivamente, riducendo la recall delle informazioni. |
 | **Mistral Small** | Closed | 0.688 | **0.917** | 0.769 | 0.943 | Molto preciso nel selezionare le fonti (*Context Precision* alta) e fedele al testo, ma penalizzato da risposte spesso troppo vaghe o incomplete. |
-| **LLaMA 3 8B** | Open | 0.825 | n.d.¹ | **0.922** | 0.769 | Ottimo nel recuperare i documenti giusti (*Context Recall* alta), ma fatica a rimanere fedele al testo, introducendo inesattezze esterne. |
+| **LLaMA 3 8B** | Open | 0.825 | n.d. | **0.922** | 0.769 | Ottimo nel recuperare i documenti giusti (*Context Recall* alta), ma fatica a rimanere fedele al testo, introducendo inesattezze esterne. |
 
 ## 📊 Grafici
 
@@ -72,6 +72,7 @@ L'analisi sperimentale, condotta su un dataset di domande giuridiche e "Golden A
 ├── requirements.txt        # Dipendenze Python necessarie
 
 └── .env.example            # Template per le API Key
+
 
 
 
