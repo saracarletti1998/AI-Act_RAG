@@ -7,7 +7,7 @@
 
 Questo repository contiene il codice sorgente e il dataset sperimentale sviluppati per il progetto denominato **"Assessment delle pipeline RAG con LLM: Analisi quantitativa sull'interpretazione del Regolamento Europeo AI Act"**.
 
-Il progetto propone un approccio metodologico per valutare l'affidabilità dei Large Language Models (LLM) nell'interpretazione di testi normativi complessi, utilizzando l'**AI Act (Regolamento UE 2024/1689)** come caso di studio.
+Il progetto propone un approccio metodologico per valutare l'affidabilità degli LLM nell'interpretazione di testi normativi complessi, utilizzando l'**AI Act (Regolamento UE 2024/1689)** come caso di studio.
 
 ---
 
@@ -71,6 +71,7 @@ L'analisi sperimentale, condotta su un dataset di domande giuridiche e "Golden A
 ├── requirements.txt        # Dipendenze Python necessarie
 
 └── .env.example            # Template per le API Key
+
 
 
 
