@@ -29,7 +29,6 @@ Le principali attività svolte includono:
 L'analisi sperimentale, condotta su un dataset di domande giuridiche e "Golden Answers", ha evidenziato i seguenti trend:
 
 ## 🗒️ Tabelle
-## 📊 Principali Risultati
 
 L'analisi sperimentale, condotta su un dataset di domande giuridiche e "Golden Answers", ha evidenziato i seguenti trend:
 
@@ -73,5 +72,6 @@ L'analisi sperimentale, condotta su un dataset di domande giuridiche e "Golden A
 ├── requirements.txt        # Dipendenze Python necessarie
 
 └── .env.example            # Template per le API Key
+
 
 
