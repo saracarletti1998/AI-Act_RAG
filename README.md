@@ -19,7 +19,7 @@ L'utilizzo degli LLM in ambito legale è promettente ma rischioso a causa delle 
 Le principali attività svolte includono:
 1.  **Costruzione di un Corpus Normativo:** Preprocessing e segmentazione (chunking) del testo integrale dell'AI Act per ottimizzare il recupero semantico.
 2.  **Implementazione RAG:** Sviluppo di una pipeline end-to-end che integra un *Vector Store* (FAISS) per il retrieval e diversi LLM per la generazione.
-3.  **Benchmarking Comparativo:** Confronto diretto tra modelli **Closed-Source** (GPT-4o, Claude 3.5 Sonnet, Mistral) e modelli **Open-Source** (LLaMA 3, DeepSeek) a parità di condizioni.
+3.  **Benchmarking Comparativo:** Confronto diretto tra modelli **Closed-Source** (GPT-4o, Claude 4.5 Sonnet, Mistral) e modelli **Open-Source** (LLaMA 3, DeepSeek) a parità di condizioni.
 4.  **Valutazione Quantitativa:** Utilizzo del framework **RAGAS** per misurare metriche oggettive come *Faithfulness* (fedeltà al testo), *Answer Relevancy* (pertinenza) e *Context Recall*.
 
 ---
@@ -29,11 +29,16 @@ Le principali attività svolte includono:
 L'analisi sperimentale, condotta su un dataset di domande giuridiche e "Golden Answers", ha evidenziato i seguenti trend:
 
 ## 🗒️ Tabelle
+## 📊 Principali Risultati
+
+L'analisi sperimentale, condotta su un dataset di domande giuridiche e "Golden Answers", ha evidenziato i seguenti trend:
+
 | Modello | Tipo | Answer Relevancy | Faithfulness | Analisi Sintetica |
 |:---|:---:|:---:|:---:|:---|
 | **GPT-4o mini** | Closed | **0.91** | **0.97** | Il modello più solido. Eccelle nel bilanciare precisione nel recupero e fluidità nella generazione, con allucinazioni quasi assenti. |
 | **DeepSeek 7B** | Open | 0.91 | 0.92 | Sorprendente performance per un modello open-source 7B, che eguaglia GPT-4o nella rilevanza delle risposte. |
 | **Claude Sonnet** | Closed | 0.84 | 0.95 | Estremamente cauto e fedele (alta faithfulness), ma tende a sintetizzare eccessivamente, riducendo la recall delle informazioni. |
+| **Mistral Small** | Closed | 0.69 | 0.94 | Molto preciso nel selezionare le fonti (Context Precision alta) e fedele al testo, ma penalizzato da risposte spesso troppo vaghe o incomplete. |
 | **LLaMA 3 8B** | Open | 0.82 | 0.77 | Ottimo nel recuperare i documenti giusti (*Context Recall* alta), ma fatica a rimanere fedele al testo, introducendo inesattezze esterne. |
 
 ## 📊 Grafici
@@ -68,4 +73,5 @@ L'analisi sperimentale, condotta su un dataset di domande giuridiche e "Golden A
 ├── requirements.txt        # Dipendenze Python necessarie
 
 └── .env.example            # Template per le API Key
+
 
