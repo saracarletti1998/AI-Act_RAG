@@ -12,7 +12,7 @@ Il progetto propone un approccio metodologico rigoroso per valutare l'affidabili
 
 ---
 
-## 🎯 Obiettivi e Contributo del Lavoro
+## 🎯 OBIETTIVI
 
 L'utilizzo degli LLM in ambito legale è promettente ma rischioso a causa delle "allucinazioni" generative. Questo lavoro di tesi affronta il problema implementando e valutando una pipeline **Retrieval-Augmented Generation (RAG)** che ancora le risposte del modello al testo ufficiale della normativa.
 
@@ -24,7 +24,7 @@ Le principali attività svolte includono:
 
 ---
 
-## 📊 Principali Risultati
+## 📊 PRRINCIPALI RISULTATI
 
 L'analisi sperimentale, condotta su un dataset di domande giuridiche e "Golden Answers", ha evidenziato i seguenti trend:
 
@@ -39,7 +39,7 @@ L'analisi sperimentale, condotta su un dataset di domande giuridiche e "Golden A
 
 ---
 
-## 📂 Struttura del Progetto
+## 📂 Struttura del progetto
 
 ```text
 ├── data/                   # Gestione dei Dati
@@ -57,4 +57,5 @@ L'analisi sperimentale, condotta su un dataset di domande giuridiche e "Golden A
 │   └── run_ragas_*.py      # Script di valutazione automatica delle metriche
 │
 ├── requirements.txt        # Dipendenze Python necessarie
+
 └── .env.example            # Template per le API Key
