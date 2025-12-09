@@ -28,12 +28,21 @@ Le principali attività svolte includono:
 
 L'analisi sperimentale, condotta su un dataset di domande giuridiche e "Golden Answers", ha evidenziato i seguenti trend:
 
+## 🗒️ Tabelle
 | Modello | Tipo | Answer Relevancy | Faithfulness | Analisi Sintetica |
 |:---|:---:|:---:|:---:|:---|
 | **GPT-4o mini** | Closed | **0.91** | **0.97** | Il modello più solido. Eccelle nel bilanciare precisione nel recupero e fluidità nella generazione, con allucinazioni quasi assenti. |
 | **DeepSeek 7B** | Open | 0.91 | 0.92 | Sorprendente performance per un modello open-source 7B, che eguaglia GPT-4o nella rilevanza delle risposte. |
 | **Claude Sonnet** | Closed | 0.84 | 0.95 | Estremamente cauto e fedele (alta faithfulness), ma tende a sintetizzare eccessivamente, riducendo la recall delle informazioni. |
 | **LLaMA 3 8B** | Open | 0.82 | 0.77 | Ottimo nel recuperare i documenti giusti (*Context Recall* alta), ma fatica a rimanere fedele al testo, introducendo inesattezze esterne. |
+
+## 📊 Grafici
+
+
+<img width="871" height="519" alt="image" src="https://github.com/user-attachments/assets/102f5590-7ea6-4b1f-b364-23e64b472462" />
+
+<img width="585" height="466" alt="image" src="https://github.com/user-attachments/assets/1029e89b-d6ee-4082-bd61-85f5fc26d93a" />
+
 
 **Conclusione:** Mentre i modelli proprietari offrono ancora le migliori garanzie di sicurezza per l'ambito legale, i modelli open-source (in particolare DeepSeek) mostrano una maturità tale da poter essere impiegati in scenari di assistenza normativa con supervisione umana.
 
@@ -59,3 +68,4 @@ L'analisi sperimentale, condotta su un dataset di domande giuridiche e "Golden A
 ├── requirements.txt        # Dipendenze Python necessarie
 
 └── .env.example            # Template per le API Key
+
