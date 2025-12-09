@@ -13,7 +13,8 @@ Il progetto propone un approccio metodologico per valutare l'affidabilità degli
 
 ## 🎯 OBIETTIVI
 
-L'utilizzo degli LLM in ambito legale è promettente ma rischioso a causa delle "allucinazioni" generative e delle difficoltà di retrieval. Questo lavoro affronta il problema implementando e valutando una pipeline **Retrieval-Augmented Generation (RAG)** applicata al corpus normativo dell'EU AI Act. L'obiettivo è stato condurre un'analisi comparativa rigorosa tra modelli GPT-4o, Claude Sonnet 4.5, Mistral, LLaMA 3 e DeepSeek, misurandone l'affidabilità tramite il framework RAGAS.
+L'utilizzo degli LLM in ambito legale è promettente ma rischioso a causa delle "allucinazioni" generative e delle difficoltà di retrieval. Questo lavoro affronta il problema implementando e valutando una pipeline **Retrieval-Augmented Generation (RAG)** applicata al corpus normativo dell'EU AI Act. 
+L'obiettivo è stato condurre un'analisi comparativa rigorosa tra modelli GPT-4o, Claude Sonnet 4.5, Mistral, LLaMA 3 e DeepSeek, misurandone l'affidabilità tramite il framework RAGAS.
 
 Le principali attività svolte includono:
 1.  **Costruzione di un Corpus Normativo:** Preprocessing e segmentazione (chunking) del testo integrale dell'AI Act per ottimizzare il recupero semantico.
@@ -71,6 +72,7 @@ L'analisi sperimentale, condotta su un dataset di domande giuridiche e "Golden A
 ├── requirements.txt        # Dipendenze Python necessarie
 
 └── .env.example            # Template per le API Key
+
 
 
 
