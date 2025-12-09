@@ -1,0 +1,43 @@
+# --- Full ---
+transformers
+sentence-transformers
+faiss-cpu
+langchain
+ragas
+datasets
+tiktoken
+peft
+accelerate
+python-dotenv
+pydantic
+numpy
+
+
+# --- Core & Environment ---
+python-dotenv
+numpy
+pandas
+tqdm
+
+# --- LLM APIs ---
+openai
+anthropic
+mistralai
+langchain
+langchain-community
+langchain-openai
+
+# --- Local Models (Hugging Face) ---
+torch
+transformers
+accelerate
+bitsandbytes
+sentence-transformers
+
+# --- Vector Store ---
+faiss-cpu
+tiktoken
+
+# --- Evaluation ---
+ragas
+datasets

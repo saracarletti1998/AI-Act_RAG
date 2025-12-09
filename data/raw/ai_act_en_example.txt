@@ -1,0 +1,12 @@
+CHAPTER 1
+GENERAL PROVISIONS
+
+This Regulation lays down harmonised rules on artificial intelligence in the European Union.
+It establishes a list of prohibited AI practices and sets obligations for providers and deployers
+of high-risk AI systems and general-purpose AI models.
+
+CHAPTER 2
+DEFINITIONS
+
+“AI system” means a machine-based system designed to operate with varying levels of autonomy
+that can, for explicit or implicit objectives, generate outputs such as predictions, content, recommendations.

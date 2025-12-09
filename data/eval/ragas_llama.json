@@ -1,0 +1,9 @@
+{
+  "metric_means": {
+    "answer_relevancy": 0.8249135137939353,
+    "context_precision": NaN,
+    "context_recall": 0.9222222222222223,
+    "faithfulness": 0.7685185185185185
+  },
+  "num_samples": 25
+}
